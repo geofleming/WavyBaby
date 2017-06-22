@@ -1,0 +1,199 @@
+html body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+	height: 100px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+/* Header Logo, Text & Navigation */
+.header .row {
+	margin: 15px 0;
+}
+
+.header #logo {
+	border: 1px solid #fafafa;
+	border-radius: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header .row h1 {
+	font-size: 3.5rem;
+	text-align: center;
+	margin: 12px 0;
+	padding: 0;
+	color: #111;
+}
+
+.row .nav-pills {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.row .nav-pills li {
+	margin: 0;
+	padding: 0;
+}
+
+.row .nav-pills a {
+	color: #111;
+	border-radius: 0;
+}
+
+.row .nav-pills .active a {
+	background-color: #f2f2f2;
+	border-radius: 0;
+	color: #111;
+}
+
+.row .nav-pills .active a:hover {
+	background-color: #008AFF;
+	color: #111;
+}
+
+.row .nav-pills a:hover {
+	background-color: #008AFF;
+	border-radius: 0;
+	color: #111;
+}
+
+
+/* Main */
+.main {
+	background: url("../images/baby room.jpeg") no-repeat center left;
+	background-size: cover;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 3rem;
+}
+
+/* Main Scan Image */
+#scan {
+	margin: 50px auto;
+	padding: 0;
+	border-radius: 100%;
+	display: block;
+}
+
+
+
+/* Supporting */
+.supporting {
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+/* Baby Bump Image */
+.supporting .thumbnail {
+	border: 0 none transparent;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.thumbnail .caption {
+	background-color: #A9B2AC;
+}
+
+.thumbnail .caption h3 {
+	font-size: 2.5rem;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Calendar Due Date */
+.calendar {
+	background: url("../images/L&G.jpg") no-repeat center center;
+	background-size: cover;
+	/*background-color: #f2f2f2;*/
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+.calendar img {
+	margin-left: auto;
+	padding: 250px 40px 0 0;
+	display: block;
+}
+
+
+/* Footer */
+.footer {
+	background-color: #000;
+}
+
+.footer h6 {
+	font-size: 2rem;
+}
+
+
+
+ /* MEDIA QUERIES */
+
+/*
+Extra small devices (portrait phones, less than 544px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.container h1 {
+	font-size: 1em;
+}
+
+.nav-pills {
+	font-size: 0.75em;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap four breakpoints
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+	.container h1 {
+		font-size: 1.5em;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+	.container h1 {
+		font-size: 2em;
+	}
+	.nav-pills {
+		font-size: 1em;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container h1 {
+		font-size: 2.5em;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.container h1 {
+		font-size: 2.5em;
+	}
+
+}
