@@ -94,13 +94,13 @@ html body {
 /* Baby Scan Images */
 .main_scan .thumbnail {
 	padding: 10px 15px 10px 15px;
-	margin: 100px 0 40px 0;
+	margin-top: 150px;
 	background-color: #fafafa;
 	border-radius: 0;
 }
 
 .main_scan .thumbnail img {
-	
+
 }
 
 
