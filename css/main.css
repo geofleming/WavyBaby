@@ -26,7 +26,7 @@ html body {
 
 .header #logo {
 	border: 1px solid #fafafa;
-	border-radius: 0;
+	border-radius: 10%;
 	margin: 0;
 	padding: 0;
 }
