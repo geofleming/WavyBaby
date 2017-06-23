@@ -63,13 +63,13 @@ html body {
 
 .row .nav-pills .active a:hover {
 	background-color: #008AFF;
-	color: #111;
+	color: #f2f2f2;
 }
 
 .row .nav-pills a:hover {
 	background-color: #008AFF;
 	border-radius: 0;
-	color: #111;
+	color: #f2f2f2;
 }
 
 
@@ -139,7 +139,7 @@ html body {
 
 /* Footer */
 .footer {
-	background-color: #000;
+	background-color: #111;
 }
 
 .footer h6 {
