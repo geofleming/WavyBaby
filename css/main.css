@@ -74,9 +74,9 @@ html body {
 
 /* Main */
 .main {
-	background: url("../images/baby room.jpeg") no-repeat center left;
+	background: url("../images/baby room.jpeg") no-repeat center center;
 	background-size: cover;
-	height: 400px;
+	height: 800px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
