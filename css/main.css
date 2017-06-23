@@ -84,15 +84,34 @@ html body {
 	font-size: 3rem;
 }
 
-/* Main Scan Image */
-#scan {
-	margin: 50px auto;
-	padding: 0;
+/* Main Scan Section */
+.main_scan {
+	height: 600px;
+	background: url("../images/table1.jpg") no-repeat left center;
+	background-size: cover;
+}
+
+/* Baby Scan Images */
+.main_scan .thumbnail {
+	padding: 10px 15px 10px 15px;
+	margin: 100px 0 40px 0;
+	background-color: #fafafa;
 	border-radius: 0;
-	display: block;
+}
+
+.main_scan .thumbnail img {
+	
 }
 
 
+.main_scan .thumbnail .caption {
+	background-color: #fafafa;
+	margin-top: 10px;
+}
+
+#scan {
+	margin-bottom: 37px;
+}
 
 /* Supporting */
 .supporting {
