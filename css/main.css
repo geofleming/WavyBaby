@@ -52,6 +52,7 @@ html body {
 .row .nav-pills a {
 	color: #111;
 	border-radius: 0;
+	font-size: 2rem;
 }
 
 .row .nav-pills .active a {
