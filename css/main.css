@@ -97,18 +97,6 @@ html body {
 	margin-bottom: 37px;
 }
 
-/* Main */
-.main {
-	background: url("../images/baby room.jpeg") no-repeat center center;
-	background-size: cover;
-	height: 800px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-size: 3rem;
-}
-
-
 /* Supporting */
 .supporting {
 	padding: 20px 0;
@@ -135,6 +123,19 @@ html body {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/* Main */
+.main {
+	background: url("../images/baby room.jpeg") no-repeat center center;
+	background-size: cover;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 3rem;
+}
+
+
 
 /* Calendar Due Date */
 .calendar {
