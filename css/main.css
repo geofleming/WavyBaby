@@ -157,6 +157,26 @@ html body {
 	font-size: 2rem;
 }
 
+/* Supporting_Blog */
+.supporting_blog {
+	background: url("../images/baby room.jpeg") no-repeat center center;
+	background-size: cover;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	color: #111;
+	word-spacing: 0.3em;
+	line-height: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.supporting_blog .row {
+	margin-top: 100px;
+}
+
+.supporting_blog .row p {
+	font-size: 2rem;
+}
 
 
  /* MEDIA QUERIES */
