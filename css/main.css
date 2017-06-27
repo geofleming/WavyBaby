@@ -99,11 +99,6 @@ html body {
 	border-radius: 0;
 }
 
-.main_scan .thumbnail img {
-
-}
-
-
 .main_scan .thumbnail .caption {
 	background-color: #fafafa;
 	margin-top: 10px;
@@ -115,20 +110,21 @@ html body {
 
 /* Supporting */
 .supporting {
+	padding: 20px 0;
 	background-color: #f2f2f2;
 	margin: 0 auto;
-	padding: 40px 0;
 }
 
 /* Baby Bump Image */
 .supporting .thumbnail {
-	border: 0 none transparent;
-	padding: 0;
-	margin: 10px 0;
+	padding: 20px 20px 30px 20px;
+	background-color: #fafafa;
+	border-radius: 0;
 }
 
 .thumbnail .caption {
-	background-color: #A9B2AC;
+	background-color: #fafafa;
+	margin-top: 20px;
 }
 
 .thumbnail .caption h3 {
@@ -143,7 +139,6 @@ html body {
 .calendar {
 	background: url("../images/L&G.jpg") no-repeat center center;
 	background-size: cover;
-	/*background-color: #f2f2f2;*/
 	height: 800px;
 	margin: 0;
 	padding: 0;
