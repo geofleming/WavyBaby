@@ -73,17 +73,6 @@ html body {
 }
 
 
-/* Main */
-.main {
-	background: url("../images/baby room.jpeg") no-repeat center center;
-	background-size: cover;
-	height: 800px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-size: 3rem;
-}
-
 /* Main Scan Section */
 .main_scan {
 	height: 600px;
@@ -107,6 +96,18 @@ html body {
 #scan {
 	margin-bottom: 37px;
 }
+
+/* Main */
+.main {
+	background: url("../images/baby room.jpeg") no-repeat center center;
+	background-size: cover;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 3rem;
+}
+
 
 /* Supporting */
 .supporting {
