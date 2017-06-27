@@ -11,7 +11,6 @@ html body {
 	margin: 0 auto;
 }
 
-
 /* Header */
 .header {
 	height: 100px;
@@ -72,8 +71,7 @@ html body {
 	color: #f2f2f2;
 }
 
-
-/* Main Scan Section */
+/* Main_Scan Section */
 .main_scan {
 	height: 600px;
 	background: url("../images/table1.jpg") no-repeat left center;
@@ -97,15 +95,15 @@ html body {
 	margin-bottom: 37px;
 }
 
-/* Supporting */
-.supporting {
+/* Main Section */
+.main {
 	padding: 20px 0;
 	background-color: #f2f2f2;
 	margin: 0 auto;
 }
 
 /* Baby Bump Image */
-.supporting .thumbnail {
+.main .thumbnail {
 	padding: 20px 20px 30px 20px;
 	background-color: #fafafa;
 	border-radius: 0;
@@ -124,8 +122,8 @@ html body {
 	text-align: center;
 }
 
-/* Main */
-.main {
+/* Supporting */
+.supporting {
 	background: url("../images/baby room.jpeg") no-repeat center center;
 	background-size: cover;
 	height: 800px;
@@ -134,8 +132,6 @@ html body {
 	text-align: center;
 	font-size: 3rem;
 }
-
-
 
 /* Calendar Due Date */
 .calendar {
@@ -151,7 +147,6 @@ html body {
 	padding: 250px 40px 0 0;
 	display: block;
 }
-
 
 /* Footer */
 .footer {
