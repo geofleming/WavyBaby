@@ -3,7 +3,7 @@ html body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Lobster', sans-serif;
-	color: #fff;
+	color: #111;
 	font-size: 16px;
 }
 
@@ -13,7 +13,8 @@ html body {
 
 /* Header */
 .header {
-	height: 100px;
+	height: auto;
+	width: auto;
 	margin: 0 auto;
 	background-color: #f2f2f2;
 }
@@ -23,19 +24,17 @@ html body {
 	margin: 15px 0;
 }
 
+.header .row h1 {
+	font-size: 2.5rem;
+	margin-top: 15px;
+	text-align: center;
+}
+
 .header #logo {
 	border: 1px solid #fafafa;
 	border-radius: 10%;
 	margin: 0;
 	padding: 0;
-}
-
-.header .row h1 {
-	font-size: 3.5rem;
-	text-align: center;
-	margin: 12px 0;
-	padding: 0;
-	color: #111;
 }
 
 .row .nav-pills {
@@ -51,7 +50,7 @@ html body {
 .row .nav-pills a {
 	color: #111;
 	border-radius: 0;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .row .nav-pills .active a {
@@ -73,30 +72,27 @@ html body {
 
 /* Main_Scan Section */
 .main_scan {
-	height: 600px;
-	background: url("../images/table1.jpg") no-repeat left center;
+	max-height: 600px;
+	background: url("../images/table1.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 /* Baby Scan Images */
 .main_scan .thumbnail {
-	padding: 10px 15px 10px 15px;
-	margin-top: 150px;
+	padding: 10px 15px;
+	margin: 10px 0 10px 50px;
 	background-color: #fafafa;
 	border-radius: 0;
+	display: inline-block;
 }
 
 .main_scan .thumbnail .caption {
 	background-color: #fafafa;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .main_scan .thumbnail .caption h3 {
-	font-size: 2.5rem;
-}
-
-#scan {
-	margin-bottom: 37px;
+	font-size: 2rem;
 }
 
 /* Main Section */
@@ -104,6 +100,7 @@ html body {
 	padding: 20px 0;
 	background-color: #f2f2f2;
 	margin: 0 auto;
+	height: auto;
 }
 
 /* Baby Bump Image */
@@ -119,7 +116,7 @@ html body {
 }
 
 .thumbnail .caption h3 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	padding: 0;
 	margin: 0;
 	text-transform: uppercase;
@@ -130,7 +127,7 @@ html body {
 .supporting {
 	background: url("../images/baby room.jpeg") no-repeat center center;
 	background-size: cover;
-	height: 800px;
+	max-height: 800px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -139,16 +136,16 @@ html body {
 
 /* Calendar Due Date */
 .calendar {
-	background: url("../images/L&G.jpg") no-repeat center center;
+	background: url("../images/L&G.jpg") no-repeat right center;
 	background-size: cover;
-	height: 800px;
+	height: 600px;
 	margin: 0;
 	padding: 0;
 }
 
 .calendar img {
 	margin-left: auto;
-	padding: 250px 40px 0 0;
+	padding: 60px 40px 0 0;
 	display: block;
 }
 
@@ -158,14 +155,15 @@ html body {
 }
 
 .footer h6 {
-	font-size: 2rem;
+	font-size: 1.5rem;
+	color: #f2f2f2;
 }
 
 /* Supporting_Blog */
 .supporting_blog {
 	background: url("../images/baby room.jpeg") no-repeat center center;
 	background-size: cover;
-	height: 800px;
+	height: auto;
 	margin: 0;
 	padding: 0;
 	color: #111;
@@ -175,19 +173,19 @@ html body {
 }
 
 .supporting_blog .row {
-	margin-top: 100px;
+	margin: 100px 0;
 }
 
 .supporting_blog .row h2 {
-	font-size: 3rem;
-}
-
-.supporting_blog .row h4 {
 	font-size: 2.25rem;
 }
 
+.supporting_blog .row h4 {
+	font-size: 1.85rem;
+}
+
 .supporting_blog .row p {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 
 
@@ -197,47 +195,46 @@ html body {
 Extra small devices (portrait phones, less than 544px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-.container h1 {
-	font-size: 1em;
-}
-
-.nav-pills {
-	font-size: 0.75em;
-}
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
-Bootstrap four breakpoints
+Bootstrap breakpoints
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-	.container h1 {
-		font-size: 1.5em;
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 750px) {
+	.header .row h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		margin: 15px 0;
+		padding: 0;
+	}
+
+	.row .nav-pills a {
+		font-size: 2rem;
 	}
 }
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {
-	.container h1 {
-		font-size: 2em;
-	}
-	.nav-pills {
-		font-size: 1em;
-	}
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	.container h1 {
-		font-size: 2.5em;
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.main_scan .thumbnail {
+		padding: 10px 15px 10px 15px;
+		margin: 150px 0 150px 10px;
 	}
 
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-	.container h1 {
-		font-size: 2.5em;
+	.main_scan .thumbnail .caption h3 {
+		font-size: 2.5rem;
 	}
 
+	.main .thumbnail .caption h3 {
+		font-size: 2.5rem;
+	}
+
+	.calendar {
+		height: 800px;
+	}
+
+	.calendar img {
+		width: 35%;
+		margin-top: 40px;
+	}
 }
