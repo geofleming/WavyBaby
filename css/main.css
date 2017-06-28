@@ -91,6 +91,10 @@ html body {
 	margin-top: 10px;
 }
 
+.main_scan .thumbnail .caption h3 {
+	font-size: 2.5rem;
+}
+
 #scan {
 	margin-bottom: 37px;
 }
@@ -172,6 +176,14 @@ html body {
 
 .supporting_blog .row {
 	margin-top: 100px;
+}
+
+.supporting_blog .row h2 {
+	font-size: 3rem;
+}
+
+.supporting_blog .row h4 {
+	font-size: 2.25rem;
 }
 
 .supporting_blog .row p {
