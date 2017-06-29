@@ -14,7 +14,7 @@ html body {
 /* Header */
 .header {
 	height: auto;
-	width: auto;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #f2f2f2;
 }
@@ -97,7 +97,7 @@ html body {
 
 /* Main Section */
 .main {
-	padding: 20px 0;
+	padding: 20px 0 0 0;
 	background-color: #f2f2f2;
 	margin: 0 auto;
 	height: auto;
@@ -125,7 +125,7 @@ html body {
 
 /* Supporting */
 .supporting {
-	background: url("../images/baby room.jpeg") no-repeat center center;
+	background: url("../images/babyroom.jpeg") no-repeat center center;
 	background-size: cover;
 	max-height: 800px;
 	margin: 0;
@@ -145,7 +145,7 @@ html body {
 
 .calendar img {
 	margin-left: auto;
-	padding: 60px 40px 0 0;
+	padding: 60px 20px 0 0;
 	display: block;
 }
 
@@ -161,7 +161,7 @@ html body {
 
 /* Supporting_Blog */
 .supporting_blog {
-	background: url("../images/baby room.jpeg") no-repeat center center;
+	background: url("../images/babyroom.jpeg") no-repeat center center;
 	background-size: cover;
 	height: auto;
 	margin: 0;
