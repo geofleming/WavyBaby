@@ -92,7 +92,7 @@ html body {
 }
 
 .main_scan .thumbnail .caption h3 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 
 /* Main Section */
@@ -116,7 +116,7 @@ html body {
 }
 
 .thumbnail .caption h3 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	padding: 0;
 	margin: 0;
 	text-transform: uppercase;
@@ -131,12 +131,11 @@ html body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-size: 3rem;
 }
 
 /* Calendar Due Date */
 .calendar {
-	background: url("../images/L&G.jpg") no-repeat right center;
+	background: url("../images/L&G.jpg") no-repeat center center;
 	background-size: cover;
 	height: 600px;
 	margin: 0;
@@ -145,8 +144,9 @@ html body {
 
 .calendar img {
 	margin-left: auto;
-	padding: 60px 20px 0 0;
+	padding: 20px 20px 0 0;
 	display: block;
+	width: 40%;
 }
 
 /* Footer */
@@ -200,18 +200,29 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 Bootstrap breakpoints
 
+/* Extra Small devices (phones, 482px and below) to fix nav-pills layout */
+@media only screen and (max-width: 482px) {
+	.row .nav-pills {
+		margin: 0;
+		padding: 0;
+	}
+	.header .row h1 {
+		margin-top: 10px;
+	}
+
+}
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 750px) {
 	.header .row h1 {
 		font-size: 3.5rem;
-		text-align: center;
 		margin: 15px 0;
-		padding: 0;
 	}
 
 	.row .nav-pills a {
 		font-size: 2rem;
 	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
