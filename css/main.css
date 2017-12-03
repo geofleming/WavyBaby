@@ -2,7 +2,7 @@ html body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Lobster', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #111;
 	font-size: 16px;
 }
@@ -10,144 +10,42 @@ html body {
 .container {
 	margin: 0 auto;
 }
+/* Mobile First */
+/* Header */
+.header {
+	height: 75px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 /* Header */
 .header {
-	height: auto;
-	width: 100%;
-	margin: 0 auto;
-	background-color: #f2f2f2;
-}
-
-/* Header Logo, Text & Navigation */
-.header .row {
 	margin: 15px 0;
 }
 
-.header .row h1 {
-	font-size: 2.5rem;
+.header h1 {
+	font-size: 2rem;
 	margin-top: 15px;
 	text-align: center;
 }
 
-.header #logo {
-	border: 1px solid #fafafa;
-	border-radius: 10%;
-	margin: 0;
-	padding: 0;
-}
-
-.row .nav-pills {
-	margin: 10px 0;
-	padding: 0;
-}
-
-.row .nav-pills li {
-	margin: 0;
-	padding: 0;
-}
-
-.row .nav-pills a {
-	color: #111;
-	border-radius: 0;
-	font-size: 1.5rem;
-}
-
-.row .nav-pills .active a {
-	background-color: #f2f2f2;
-	border-radius: 0;
-	color: #111;
-}
-
-.row .nav-pills .active a:hover {
-	background-color: #008AFF;
-	color: #f2f2f2;
-}
-
-.row .nav-pills a:hover {
-	background-color: #008AFF;
-	border-radius: 0;
-	color: #f2f2f2;
-}
 
 /* Main_Scan Section */
 .main_scan {
-	max-height: 600px;
-	background: url("../images/table1.jpg") no-repeat center center;
-	background-size: cover;
+	height: 525px;
 }
 
-/* Baby Scan Images */
-.main_scan .thumbnail {
-	padding: 10px 15px;
-	margin: 10px 0 10px 50px;
-	background-color: #fafafa;
-	border-radius: 0;
-	display: inline-block;
-}
-
-.main_scan .thumbnail .caption {
-	background-color: #fafafa;
-	margin-top: 20px;
-}
-
-.main_scan .thumbnail .caption h3 {
-	font-size: 1.75rem;
-}
-
-/* Main Section */
-.main {
-	padding: 20px 0 0 0;
-	background-color: #f2f2f2;
-	margin: 0 auto;
-	height: auto;
-}
-
-/* Baby Bump Image */
-.main .thumbnail {
-	padding: 20px 20px 30px 20px;
-	background-color: #fafafa;
-	border-radius: 0;
-}
-
-.thumbnail .caption {
-	background-color: #fafafa;
-	margin-top: 20px;
-}
-
-.thumbnail .caption h3 {
-	font-size: 1.5rem;
-	padding: 0;
-	margin: 0;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-/* Supporting */
-.supporting {
-	background: url("../images/babyroom.jpeg") no-repeat center center;
-	background-size: cover;
-	max-height: 800px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-/* Calendar Due Date */
-.calendar {
-	background: url("../images/L&G.jpg") no-repeat center center;
-	background-size: cover;
-	height: 600px;
-	margin: 0;
-	padding: 0;
-}
-
-.calendar img {
+.main_scan img {
+	border-radius: 100px;
 	margin-left: auto;
-	padding: 20px 20px 0 0;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	display: block;
-	width: 40%;
+	align: center;
 }
+
+
 
 /* Footer */
 .footer {
@@ -159,40 +57,12 @@ html body {
 	color: #f2f2f2;
 }
 
-/* Supporting_Blog */
-.supporting_blog {
-	background: url("../images/babyroom.jpeg") no-repeat center center;
-	background-size: cover;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	color: #111;
-	word-spacing: 0.3em;
-	line-height: 1.5em;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-.supporting_blog .row {
-	margin: 80px 0;
-}
-
-.supporting_blog .row h2 {
-	font-size: 2.25rem;
-}
-
-.supporting_blog .row h4 {
-	font-size: 1.85rem;
-}
-
-.supporting_blog .row p {
-	font-size: 1.75rem;
-}
 
 
  /* MEDIA QUERIES */
 
 /*
-Extra small devices (portrait phones, less than 544px)
+Extra small devices (portrait phones, less than 400px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
 
@@ -200,52 +70,74 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 Bootstrap breakpoints
 
-/* Extra Small devices (phones, 482px and below) to fix nav-pills layout */
-@media only screen and (max-width: 482px) {
-	.row .nav-pills {
-		margin: 0;
-		padding: 0;
-	}
-	.header .row h1 {
-		margin-top: 10px;
+
+/* Small devices (400px up to 759px) */
+@media only screen and (min-width: 400px) {
+	.header h1 {
+		font-size: 2.25rem;
 	}
 
-}
-
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 750px) {
-	.header .row h1 {
-		font-size: 3.5rem;
-		margin: 15px 0;
+	/* Main_Scan Section */
+	.main_scan {
+		height: 595px;
 	}
 
-	.row .nav-pills a {
-		font-size: 2rem;
+	.main_scan img {
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
+
+	/* Small devices (760px up to 999px) */
+	@media only screen and (min-width: 760px) {
+		.header h1 {
+			font-size: 2.4rem;
+		}
+
+		/* Main_Scan Section */
+		.main_scan {
+			height: 880px;
+		}
+
+		.main_scan img {
+			margin-top: 80px;
+			margin-bottom: 80px;
+		}
+
+
+
+
+	/* Tablet devices (1000px and up) */
+	@media only screen and (min-width: 1000px) {
+		.header h1 {
+			font-size: 2.5rem;
+		}
+
+		/* Main_Scan Section */
+		.main_scan {
+			height: 625px;
+		}
+
+		.main_scan img {
+			margin-top: 35px;
+			margin-bottom: 35px;
+		}
+
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-	.main_scan .thumbnail {
-		padding: 10px 15px 10px 15px;
-		margin: 150px 0 150px 10px;
-	}
-
-	.main_scan .thumbnail .caption h3 {
+	.header h1 {
 		font-size: 2.5rem;
 	}
 
-	.main .thumbnail .caption h3 {
-		font-size: 2.5rem;
+	/* Main_Scan Section */
+	.main_scan {
+		height: 780px;
 	}
 
-	.calendar {
-		height: 800px;
-	}
-
-	.calendar img {
-		width: 35%;
-		margin-top: 40px;
+	.main_scan img {
+		margin-top: 80px;
+		margin-bottom: 80px;
 	}
 }
