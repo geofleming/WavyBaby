@@ -11,47 +11,83 @@ html body {
 .container {
 	margin: 0 auto;
 }
+
 /* Mobile First */
 /* Header */
 .header {
 	font-family: 'Indie Flower';
-	height: 100px;
-	width: 100%;
+	height: auto;
+	min-width: 300px;
 	margin: 0 auto;
 }
 
 .header h1 {
-	font-size: 3rem;
-	margin-top: 35px;
+	font-size: 2rem;
 	text-align: center;
+	margin: 50px 0 50px 0;
 }
 
 
 /* Main Section */
 .main {
-	height: 525px;
+	height: auto;
+	margin: 0 auto;
 }
 
-.main img {
-	border-radius: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
+.main .row {
+	max-height: 300px;
+	min-width: 300px;
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 3px;
+}
+
+.main .row img {
 	display: block;
-	align: center;
+	height: auto;
+	width: 100%;
+	padding: 3px;
 }
 
+/* Info Section */
+.info {
+	background-color: #E4EBF4;
+	margin-top: 50px;
+	font-family: 'Indie Flower';
+	min-width: 300px;
+}
 
+.info .container {
+	min-width: 300px;
+	max-width: 800px;
+}
+
+.info h2 {
+	padding: 50px 0 10px 0;
+	font-size: 2rem;
+}
+
+.info h4 {
+	padding: 0px 0 50px 0;
+	font-size: 1.5rem;
+}
 
 /* Footer */
 .footer {
-	background-color: #111;
+	background-color: #fff;
+	margin-top: -10px;
+	min-width: 300px;
+}
+
+.footer .container {
+	min-width: 300px;
+	max-width: 800px;
 }
 
 .footer h6 {
-	font-size: 1.5rem;
-	color: #fff;
+	color: #2d2d2d;
+	padding: 10px 0 10px 0;
 }
 
 
@@ -68,13 +104,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 Bootstrap breakpoints
 
 
-/* Small devices (400px up to 759px) */
-@media only screen and (min-width: 400px) {
+/* Extra Small devices (up to 319px) */
+@media only screen and (max-width: 319px) {
 	.header h1 {
-		font-size: 2.25rem;
+		font-size: 1.75rem;
 	}
 
-	/* Main_Scan Section */
+}
+
+	/* Main_Scan Section
 	.main_scan {
 		height: 595px;
 	}
@@ -84,13 +122,13 @@ Bootstrap breakpoints
 		margin-bottom: 25px;
 	}
 
-	/* Small devices (760px up to 999px) */
+	/* Small devices (760px up to 999px)
 	@media only screen and (min-width: 760px) {
 		.header h1 {
 			font-size: 2.4rem;
 		}
 
-		/* Main_Scan Section */
+		/* Main_Scan Section
 		.main_scan {
 			height: 880px;
 		}
@@ -103,13 +141,13 @@ Bootstrap breakpoints
 
 
 
-	/* Tablet devices (1000px and up) */
+	/* Tablet devices (1000px and up)
 	@media only screen and (min-width: 1000px) {
 		.header h1 {
 			font-size: 2.5rem;
 		}
 
-		/* Main_Scan Section */
+		/* Main_Scan Section
 		.main_scan {
 			height: 625px;
 		}
@@ -122,13 +160,13 @@ Bootstrap breakpoints
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
 	.header h1 {
 		font-size: 2.5rem;
 	}
 
-	/* Main_Scan Section */
+	/* Main_Scan Section
 	.main_scan {
 		height: 780px;
 	}
@@ -138,3 +176,5 @@ Bootstrap breakpoints
 		margin-bottom: 80px;
 	}
 }
+
+*/
